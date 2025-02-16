@@ -1,0 +1,190 @@
+/** RESET VALEUR **/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/** ---------------------------------------------- **/
+/** FONT - DM Sans **/
+/** Medium **/
+@font-face {
+    font-family:"DM-Medium";
+    src: url("../fonts/DM-Sans/DMSans-Medium.ttf");
+}
+/** Bold **/
+@font-face {
+    font-family:"DM-Bold";
+    src: url("../fonts/DM-Sans/DMSans-Bold.ttf");
+}
+/** ------------------------------------------------
+                    HEADER
+--------------------------------------------------**/
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+nav {
+    width: 75.625rem;
+    height: 2.813rem;
+    margin-top: 1.875rem;
+    margin-left: 0.938rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+li ,a{
+    color: #1E0E62;
+    text-decoration: none;
+    list-style: none;
+}
+li:nth-child(1) {
+    font-size: 24px;
+    font-family: "DM-Bold";
+    height: 1.188rem;
+    width: 8rem;
+    color: #1E0E62;
+}
+li:nth-child(2) {
+    margin-left: 29.25rem;
+    margin-right: 2.063rem;
+    font-size: 18px;
+    font-family: "DM-Medium";
+}
+li:nth-child(3) {
+    margin-right: 2.063rem;
+    font-size: 18px;
+    font-family: "DM-Medium";
+    width: 6.938rem;
+}
+li:nth-child(4) {
+    margin-right: 2.063rem;
+    font-size: 18px;
+    font-family: "DM-Medium";
+}
+li:nth-child(5) {
+    margin-right: 2.063rem;
+    font-size: 18px;
+    font-family: "DM-Medium";
+}
+li:nth-child(6) {
+    margin-right: 3.5rem;
+    font-size: 18px;
+    font-family: "DM-Medium";
+}
+li:nth-child(7) {
+    border: #EBEAED 2px solid;
+    border-radius: 100px;
+    line-height: 26px;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+    padding-top: 0.313rem;
+    margin-top: -0.438rem;
+    height: 2.5rem;
+    width: 6.25rem;
+    font-size: 18px;
+    font-family: "DM-Medium";
+}
+/** ------------- MAIN ------------- **/
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.title h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "DM-Bold";
+    font-size: 58px;
+    color: #1E0E62;
+    width: 55rem;
+    height: 8.75rem;
+    line-height: 70px;
+    text-align: center;
+    margin-top: 9.625rem;
+}
+/** BOUTON MAIN **/
+.bouton-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-top: 4.125rem;
+}
+.bouton-main a:first-child{
+    width: 10.625rem;
+    height: 3.75rem;
+    background-color: #25DAC5;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 100px;
+    padding-top: 0.938rem;
+    font-size: 20px;
+    font-family: "DM-Medium";
+}
+/** IMG MACBOOK **/
+.main-down {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.main-down img{
+    height: 540px;
+    width: 940px;
+    margin-top: 4.313rem;
+}
+/** ------------- FOOTER ------------- **/
+/** BLOCK FOOTER **/
+.block-footer {
+    color: #15143985;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 6rem;
+}
+/** LINE 1 **/
+.line-colonneleft {
+    border-right: 2px #1514393a solid;
+    margin-left: 2.313rem;
+    margin-right: 2.313rem;
+}
+/** LINE 2 **/
+.line-colonneright {
+    border-right: 2px #1514393a solid;
+    margin-left: 2.313rem;
+    margin-right: 2.313rem;
+}
+/** COLONNE 1 **/
+.block-footer p:first-child{
+    width: 19.688rem;
+    height: 5.25rem;
+    font-family: "DM-Medium";
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+/** COLONNE 2 **/
+.block-footer p:nth-child(3){
+    width: 19.75rem;
+    height: 7rem;
+    font-family: "DM-Medium";
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+/** COLONNE 3 **/
+.block-footer p:nth-child(5){
+    width: 19.688rem;
+    height: 5.25rem;
+    font-family: "DM-Medium";
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
