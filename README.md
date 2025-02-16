@@ -1,2 +1,2 @@
 # Presentation-Produit
-Présentation d'un produit "MacBook"
+Présentation d'une Home page vitrine "MacBook"
